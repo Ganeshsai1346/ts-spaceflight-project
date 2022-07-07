@@ -1,3 +1,5 @@
+/** @format */
+
 .App {
   text-align: center;
 }
@@ -13,21 +15,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +22,91 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color: #1f2a41 !important;
+  color: white !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+#card {
+  background: inherit;
+  border: none;
+  color: white;
+}
+
+.card-img {
+  height: 200px !important;
+  padding: 0 !important;
+  border-radius: 30px !important;
+}
+
+.card-img:hover {
+  box-shadow: 2px 1px 4px 9px rgba(140, 107, 59, 0.82);
+}
+
+#jumbotron {
+  background-image: url("https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2015/11/orion_esm3/15702107-2-eng-GB/Orion_ESM_pillars.jpg");
+  border: none;
+  background-position: center;
+  width: 1200px;
+  height: 500px;
+  border-radius: 20px;
+  color: white;
+}
+.jumb-heading {
+  font-size: 80px !important;
+  font-weight: 600;
+  color: rgb(15, 1, 19);
+}
+
+.lists {
+  display: block;
+  justify-content: center;
+}
+.paragraph {
+  font-size: 50px !important;
+}
+.nav-link {
+  font-size: 20px !important;
+}
+
+.icons {
+  font-size: 20px !important;
+}
+.paragraphs {
+  font-size: 20px;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.list {
+  border: none;
+  color: rgb(25, 24, 24);
+}
+.button {
+  font-size: 30px;
+  border: none;
+  width: 200px;
+  height: 80px;
+  outline: none;
+  border-radius: 25px;
+  padding: 0;
+  cursor: pointer;
+  background-color: rgb(29, 10, 238);
+}
+.button:hover {
+  box-shadow: 1px 4px 12px 9px rgba(190, 191, 192, 0.82);
+  background-color: gold;
+}
+.details-img {
+  border-radius: 50% !important;
+}
+.all-lists {
+  margin-top: 25px !important;
 }
